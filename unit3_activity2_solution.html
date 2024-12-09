@@ -10,120 +10,127 @@
 </head>
 
 <body class="bg-light">
-  <div class="container-fluid p-0 d-flex flex-column  min-vh-100">
+  <div class="container-fluid d-flex flex-column  min-vh-100">
 
-    <header class="bg-primary-subtle row align-items-center p-3">
-      <div class="col">
-        <h1 class="display-2">Online Store</h1>
-        <p class="lead ms-2 fst-italic">Your favorite place to shop</p>
-      </div>
-      <div class="col-auto">
-        <button class="btn btn-success btn-lg">View Cart</button>
-      </div>
-    </header>
+    <div class="row">
+      <header class="bg-primary-subtle p-3 d-flex justify-content-between align-items-center">
+        <div>
+          <h1 class="display-2">Online Store</h1>
+          <p class="lead ms-2 fst-italic">Your favorite place to shop</p>
+        </div>
+        <div>
+          <button class="btn btn-success btn-lg">View Cart</button>
+        </div>
+      </header>
+    </div>
 
     <div class="row flex-grow-1">
-      <aside class="sidebar ps-3 pt-2 bg-success-subtle col-4 col-md-3">
-        <h2 class="display-6 text-center">Categories</h2>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="#electronics"
-              class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Electronics</a>
-          </li>
-          <li class="mb-2"><a href="#clothing"
-              class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Clothing</a>
-          </li>
-          <li class="mb-2"><a href="#books"
-              class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Books</a>
-          </li>
-          <li class="mb-2"><a href="#home-garden"
-              class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Home
-              & Garden</a></li>
-        </ul>
-      </aside>
-      <main class="px-4 py-2 col-8 col-md-9">
-        <h2 class="text-center display-6 mb-4">Featured Products</h2>
-        <section>
-          <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
-            <div class="col">
-              <article class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top">
-                <div class="card-body">
-                  <h3 class="card-title fs-4">Product 1</h5>
-                    <p class="card-text">$20.00</p>
-                    <div class="text-center">
-                      <button class="btn btn-outline-primary btn-sm">Add to cart</button>
-                    </div>
-                </div>
-              </article>
+      <div class="col-4 col-md-3 bg-success-subtle">
+        <aside class="ps-3 pt-2">
+          <h2 class="display-6 text-center">Categories</h2>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#electronics"
+                class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Electronics</a>
+            </li>
+            <li class="mb-2"><a href="#clothing"
+                class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Clothing</a>
+            </li>
+            <li class="mb-2"><a href="#books"
+                class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Books</a>
+            </li>
+            <li class="mb-2"><a href="#home-garden"
+                class="fs-5 link-offset-2 link-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-75-hover">Home
+                & Garden</a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="col-8 col-md-9">
+        <main class="px-4 py-2">
+          <h2 class="text-center display-6 mb-4">Featured Products</h2>
+          <section>
+            <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
+              <div class="col">
+                <article class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title fs-4">Product 1</h5>
+                      <p class="card-text">$20.00</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-primary btn-sm">Add to cart</button>
+                      </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title fs-4">Product 2</h5>
+                      <p class="card-text">$15.00</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-primary btn-sm">Add to cart</button>
+                      </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title fs-4">Product 3</h5>
+                      <p class="card-text">$25.00</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-primary btn-sm">Add to cart</button>
+                      </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title fs-4">Product 4</h5>
+                      <p class="card-text">$10.00</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-primary btn-sm">Add to cart</button>
+                      </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title fs-4">Product 5</h5>
+                      <p class="card-text">$40.00</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-primary btn-sm">Add to cart</button>
+                      </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col">
+                <article class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title fs-4">Product 6</h5>
+                      <p class="card-text">$55.00</p>
+                      <div class="text-center">
+                        <button class="btn btn-outline-primary btn-sm">Add to cart</button>
+                      </div>
+                  </div>
+                </article>
+              </div>
             </div>
-            <div class="col">
-              <article class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top">
-                <div class="card-body">
-                  <h3 class="card-title fs-4">Product 2</h5>
-                    <p class="card-text">$15.00</p>
-                    <div class="text-center">
-                      <button class="btn btn-outline-primary btn-sm">Add to cart</button>
-                    </div>
-                </div>
-              </article>
-            </div>
-            <div class="col">
-              <article class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top">
-                <div class="card-body">
-                  <h3 class="card-title fs-4">Product 3</h5>
-                    <p class="card-text">$25.00</p>
-                    <div class="text-center">
-                      <button class="btn btn-outline-primary btn-sm">Add to cart</button>
-                    </div>
-                </div>
-              </article>
-            </div>
-            <div class="col">
-              <article class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top">
-                <div class="card-body">
-                  <h3 class="card-title fs-4">Product 4</h5>
-                    <p class="card-text">$10.00</p>
-                    <div class="text-center">
-                      <button class="btn btn-outline-primary btn-sm">Add to cart</button>
-                    </div>
-                </div>
-              </article>
-            </div>
-            <div class="col">
-              <article class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top">
-                <div class="card-body">
-                  <h3 class="card-title fs-4">Product 5</h5>
-                    <p class="card-text">$40.00</p>
-                    <div class="text-center">
-                      <button class="btn btn-outline-primary btn-sm">Add to cart</button>
-                    </div>
-                </div>
-              </article>
-            </div>
-            <div class="col">
-              <article class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top">
-                <div class="card-body">
-                  <h3 class="card-title fs-4">Product 6</h5>
-                    <p class="card-text">$55.00</p>
-                    <div class="text-center">
-                      <button class="btn btn-outline-primary btn-sm">Add to cart</button>
-                    </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-      </main>
+          </section>
+        </main>
+      </div>
     </div>
-    <footer class="bg-dark text-light p-3">
-      <p class="lead text-end">&copy; 2024 Online Store. All rights reserved.</p>
-    </footer>
-
+    <div class="row">
+      <footer class="bg-dark text-light p-3">
+        <p class="lead text-end">&copy; 2024 Online Store. All rights reserved.</p>
+      </footer>
+    </div>
   </div>
 </body>
 
